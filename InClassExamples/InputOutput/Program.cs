@@ -31,6 +31,7 @@ namespace InputOutput
 
             //This doesn't make sense, BUT it shows we can use it in calculations
             double gpaEnhanced = gpa + 1.5;
+            
 
             Console.WriteLine(firstName + " " + lastName + 
                 " is teaching " + CLASS_NAME  +
