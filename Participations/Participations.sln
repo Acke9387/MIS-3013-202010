@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOf3", "SumOf3\SumOf3.csproj", "{5BBD6E4E-90CE-43B0-8585-5CBDCF7826EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOf3", "SumOf3\SumOf3.csproj", "{5BBD6E4E-90CE-43B0-8585-5CBDCF7826EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditional_FizzBuzz", "Conditional_FizzBuzz\Conditional_FizzBuzz.csproj", "{1A13EE48-CA3A-4A89-B71B-7EF3FB435348}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5BBD6E4E-90CE-43B0-8585-5CBDCF7826EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BBD6E4E-90CE-43B0-8585-5CBDCF7826EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BBD6E4E-90CE-43B0-8585-5CBDCF7826EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A13EE48-CA3A-4A89-B71B-7EF3FB435348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A13EE48-CA3A-4A89-B71B-7EF3FB435348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A13EE48-CA3A-4A89-B71B-7EF3FB435348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A13EE48-CA3A-4A89-B71B-7EF3FB435348}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
