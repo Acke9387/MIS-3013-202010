@@ -14,13 +14,19 @@ namespace Conditional_FizzBuzz
             //BOOLEAN OPERATORS:
             //      OR  = ||
             //      AND = &&
-
-            if (number % 3 == 0)
+            //Assign a specific value in order to test
+            number = 15;
+            if (number % 3 == 0)                
             {
                 Console.WriteLine("Fizz");
             }
+            //else if ()
+            //{
+
+            //}
 
             Console.WriteLine(number);
+            Console.ReadKey();
         }
     }
 }
