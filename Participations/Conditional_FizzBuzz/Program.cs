@@ -15,17 +15,26 @@ namespace Conditional_FizzBuzz
             //      OR  = ||
             //      AND = &&
             //Assign a specific value in order to test
-            number = 15;
+            
             if (number % 3 == 0)                
             {
                 Console.WriteLine("Fizz");
             }
-            //else if ()
-            //{
+            else if (number % 5 == 0)
+            {
+                Console.WriteLine("Buzz");
+            }
+            else if (number % 3 == 0
+            && number % 5 == 0)
+            {
+                Console.WriteLine("Fizz buzz");
+            }
+            else
+            {
+                Console.WriteLine(number);
+            }
+           
 
-            //}
-
-            Console.WriteLine(number);
             Console.ReadKey();
         }
     }
