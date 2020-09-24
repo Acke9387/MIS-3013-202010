@@ -9,6 +9,13 @@ namespace StringManipulation
             //                         012345678910
             string instanceOfString = "Hello World!";
 
+            if (instanceOfString[0] == 'H')
+            {
+                return;
+                Environment.Exit(-1);
+            }
+
+
             instanceOfString = instanceOfString.ToUpper();
             for (int i = 0; i < instanceOfString.Length; i++)
             {
