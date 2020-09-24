@@ -9,14 +9,10 @@ namespace StringManipulation
             //                         012345678910
             string instanceOfString = "Hello World!";
 
-            if (instanceOfString[0] == 'H')
-            {
-                return;
-                Environment.Exit(-1);
-            }
-
 
             instanceOfString = instanceOfString.ToUpper();
+            // Starting value | Condition to loop      | what assignment happens after each loop
+            //                                          this could be i = i + 10 to count by 10 each loop
             for (int i = 0; i < instanceOfString.Length; i++)
             {
                 char letter = instanceOfString[i];
