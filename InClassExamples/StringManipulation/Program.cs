@@ -9,7 +9,13 @@ namespace StringManipulation
             //                         012345678910
             string instanceOfString = "Hello World!";
 
+            char firstLetter = instanceOfString[0];
 
+            for (int i = 0; i < 101; i = i + 10)
+            {
+                Console.WriteLine(i);
+            }
+            
             instanceOfString = instanceOfString.ToUpper();
             // Starting value | Condition to loop      | what assignment happens after each loop
             //                                          this could be i = i + 10 to count by 10 each loop
@@ -20,7 +26,7 @@ namespace StringManipulation
                 Console.WriteLine(letter);//.ToString().ToUpper());
 
             }
-
+            
 
             Console.ReadKey();
         }
