@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{15130695-370F-4919-905B-DEC83A305EF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExitingOutOfApplication", "ExitingOutOfApplication\ExitingOutOfApplication.csproj", "{D79D20D6-3FF2-47CC-B71D-DD31BF3830B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExitingOutOfApplication", "ExitingOutOfApplication\ExitingOutOfApplication.csproj", "{D79D20D6-3FF2-47CC-B71D-DD31BF3830B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{525F0F50-2025-4B17-B403-5F0D48259B3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D79D20D6-3FF2-47CC-B71D-DD31BF3830B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79D20D6-3FF2-47CC-B71D-DD31BF3830B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79D20D6-3FF2-47CC-B71D-DD31BF3830B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525F0F50-2025-4B17-B403-5F0D48259B3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525F0F50-2025-4B17-B403-5F0D48259B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525F0F50-2025-4B17-B403-5F0D48259B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525F0F50-2025-4B17-B403-5F0D48259B3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
