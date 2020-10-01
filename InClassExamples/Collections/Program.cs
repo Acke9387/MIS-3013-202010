@@ -1,11 +1,67 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Collections
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            string filePath = @"C:\Users\acke9387\Downloads\Frankenstein.txt";
+
+            string[] linesOfFile = File.ReadAllLines(filePath);
+            int i = 0;
+
+            foreach (var line in linesOfFile)
+            {
+                // break the sentence up into words
+                string[] pieces = line.Split(' ');
+                if (i % 15 == 0 && i != 0)
+                {
+                    Console.ReadKey();
+                }
+                Console.WriteLine(line);
+                i++;
+            }
+
+            Console.ReadKey();
+        }
+
+        private static void ListExample()
+        {
+            List<string> favoriteThings = new List<string>();
+            string answer;
+
+            do
+            {
+                Console.WriteLine("Please enter one of your favorite things >>");
+                string favoriteThing = Console.ReadLine();
+
+                favoriteThings.Add(favoriteThing);
+
+                Console.WriteLine("Do you have another favorite thing to tell me? >>");
+                answer = Console.ReadLine();
+
+            } while (answer.ToLower() == "yes");
+
+            Random rand = new Random();
+            int index = rand.Next(0, favoriteThings.Count);
+
+            Console.WriteLine(favoriteThings[index]);
+
+            //Output all of the strings
+            foreach (var ft in favoriteThings)
+            {
+                if (ft == "sheepadoodle")
+                {
+                    Console.WriteLine("You're the coolest!");
+                }
+                Console.WriteLine(ft);
+            }
+        }
+
+        private static void DictionaryExample()
         {
             Dictionary<int, double> studentGpas = new Dictionary<int, double>();
 
@@ -38,10 +94,6 @@ namespace Collections
             {
                 Console.WriteLine("INVALID ID. GOODBYE.");
             }
-
-
-
-            Console.ReadKey();
         }
 
         static void ArrayExample()
