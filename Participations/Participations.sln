@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_RandomGuess", "Loops_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loops_GuessANumber", "Loops_GuessANumber\Loops_GuessANumber.csproj", "{3EFBC02B-EB4F-40C8-974B-D076C36F4CFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{21FBF928-4C15-496F-852B-1F892B3A76B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringManipulation", "StringManipulation\StringManipulation.csproj", "{21FBF928-4C15-496F-852B-1F892B3A76B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessingACSVFile", "ProcessingACSVFile\ProcessingACSVFile.csproj", "{A2BE2DD6-8154-4E09-AA77-3C0C8305DD95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{21FBF928-4C15-496F-852B-1F892B3A76B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21FBF928-4C15-496F-852B-1F892B3A76B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21FBF928-4C15-496F-852B-1F892B3A76B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BE2DD6-8154-4E09-AA77-3C0C8305DD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BE2DD6-8154-4E09-AA77-3C0C8305DD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BE2DD6-8154-4E09-AA77-3C0C8305DD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BE2DD6-8154-4E09-AA77-3C0C8305DD95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
