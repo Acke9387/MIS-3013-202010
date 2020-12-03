@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesVsParallelCollection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database_SqlClient", "Database_SqlClient\Database_SqlClient.csproj", "{D2DD4D49-9303-467A-A866-1E29607EE801}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_And_Entity_Framework_Example", "WPF_And_Entity_Framework_Example\WPF_And_Entity_Framework_Example.csproj", "{34E97D0A-2304-4DFD-96A4-500B1A80DC21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{D2DD4D49-9303-467A-A866-1E29607EE801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2DD4D49-9303-467A-A866-1E29607EE801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2DD4D49-9303-467A-A866-1E29607EE801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E97D0A-2304-4DFD-96A4-500B1A80DC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E97D0A-2304-4DFD-96A4-500B1A80DC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E97D0A-2304-4DFD-96A4-500B1A80DC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E97D0A-2304-4DFD-96A4-500B1A80DC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
